@@ -28,7 +28,7 @@ You can run [examples](https://github.com/HwangTaehyun/react-native-lottie-splas
 
 ### First step(Download):
 
-Run `yarn add lottie-ios @rn-toolkit/react-native-lottie-splash-screen`
+Run `yarn add lottie-ios lottie-react-native @rn-toolkit/react-native-lottie-splash-screen`
 
 ### Second step(Plugin Installation):
 
