@@ -266,6 +266,8 @@ import Lottie
 
   // casting UIView type to AnimationView type
   AnimationView *animationView = (AnimationView *) animationUIView;
+  // use lottie-ios >= 4.0.1
+  // LottieAnimationView *animationView = (LottieAnimationView *) animationUIView;
 
   // play
   [t playWithAnimationView:animationView];
@@ -280,7 +282,7 @@ import Lottie
 ```
 4.1  For React-Native version 0.71, in `AppDelegate.mm` rootView is no longer here. We need access to the rootView.
 
-```
+```obj-c
  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   self.moduleName = @"YOUR_PROJECT_NAME";
@@ -310,6 +312,8 @@ import Lottie
     [RNSplashScreen showLottieSplash:animationUIView inRootView:rootView];
     // casting UIView type to AnimationView type
     AnimationView *animationView = (AnimationView *) animationUIView;
+    // use lottie-ios >= 4.0.1
+    // LottieAnimationView *animationView = (LottieAnimationView *) animationUIView;
     // play
     [t playWithAnimationView:animationView];
     // If you want the animation layout to be forced to remove when hide is called, use this code
